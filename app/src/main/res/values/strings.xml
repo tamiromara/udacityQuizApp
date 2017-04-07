@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Application Name -->
+    <string name="app_name">ABND Java Quiz</string>
+
+    <!-- QUESTION 1: Title -->
+    <string name="question_1_title">question 1: </string>
+    <!-- QUESTION 1: actual question -->
+    <string name="question_1_text">Which of the following is part of the Method signature?</string>
+    <!-- QUESTION 1: Correct answer(s): no.2 & no.3 -->
+    <string name="question_1_answer_1">"Method's return data type"</string>
+    <string name="question_1_answer_2">"Method's Name"</string>
+    <string name="question_1_answer_3">"Method's input parameter data type"</string>
+    <string name="question_1_answer_4">"Method's body between braces"</string>
+    <string name="question_1_answer_5">None of the above</string>
+
+    <!-- QUESTION 2: Title -->
+    <string name="question_2_title">question 2:</string>
+    <!-- QUESTION 2: Actual question -->
+    <string name="question_2_text">Method overloading allows two or more methods within a class to share the same name, only if: </string>
+    <!-- QUESTION 2: Correct answer(s): no.1 -->
+    <string name="question_2_answer_1">Their parameter lists are different.</string>
+    <string name="question_2_answer_2">They share the same return data type.</string>
+    <string name="question_2_answer_3">They return different data types.</string>
+
+    <!-- QUESTION 3: Title -->
+    <string name="question_3_title">question 3:</string>
+    <!-- QUESTION 3: Actual question -->
+    <string name="question_3_text">Java distinguishes between different methods using:</string>
+    <!-- QUESTION 3: Correct answer(s): no.2 -->
+    <string name="question_3_answer_1">"The method's parameter list"</string>
+    <string name="question_3_answer_2">"The method's signature"</string>
+    <string name="question_3_answer_3">"The method's body"</string>
+
+    <!-- QUESTION 4: Title -->
+    <string name="question_4_title">question 4:</string>
+    <!-- QUESTION 4: Actual question -->
+    <string name="question_4_text">A Class is the blueprint from which ____ are created:</string>
+    <!-- QUESTION 4: Hint text  -->
+    <string name="question_4_hint">Type in answer</string>
+
+    <!-- SUBMIT BUTTON -->
+    <string name="submitAnswersButton">Submit</string>
+
+    <!-- Email Intent content -->
+    <!-- Email subject -->
+    <string name="email_subject">"Java Quiz Report"</string>
+    <!-- Email report: Student name -->
+    <string name="report_student_name">"Student Name: "</string>
+    <!-- Email report: Title -->
+    <string name="report_title">"Exam results: "</string>
+    <!-- Email report: text before answers -->
+    <string name="report_question_1">"- Question 1: "</string>
+    <string name="report_question_2">"- Question 2: "</string>
+    <string name="report_question_3">"- Question 3: "</string>
+    <string name="report_question_4">"- Question 4: "</string>
+
+    <!-- Email report: String to display when answer is correct -->
+    <string name="correct_answer">Correct.</string>
+    <!-- Email report: String to display when answer is incorrect -->
+    <string name="incorrect_answer">"Incorrect."</string>
+    <!-- Email report: String to display when no answer is submitted -->
+    <string name="empty_answer">No answer was submitted!</string>
+
+</resources>
